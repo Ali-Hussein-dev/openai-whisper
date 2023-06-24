@@ -1,6 +1,6 @@
 {
   "name": "react-whisper-ai",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "build": "npx tsup index.tsx --format cjs --dts",
     "publish": "turbo run build lint && changeset version && changeset publish"
