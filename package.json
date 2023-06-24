@@ -14,5 +14,18 @@
     "turbo": "latest"
   },
   "packageManager": "pnpm@7.15.0",
-  "name": "openai-whisper"
+  "name": "openai-whisper",
+  "keywords": [
+    "open-ai",
+    "openai",
+    "whisper",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ali-Hussein-dev/openai-whisper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ali-Hussein-dev/openai-whisper/issues"
+  }
 }
