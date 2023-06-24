@@ -1,0 +1,27 @@
+{
+  "name": "react-whisper",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "npx tsup index.tsx --format cjs --dts",
+    "publish": "turbo run build lint && changeset version && changeset publish"
+  },
+  "dependencies": {
+    "audiobuffer-to-wav": "^1.0.0",
+    "eslint-config-custom": "workspace:*",
+    "react": "^18.2.0",
+    "tsconfig": "workspace:*"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@types/audiobuffer-to-wav": "^1.0.2",
+    "@types/react": "^18.2.14",
+    "typescript": "^5.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ali-Hussein-dev/openai-whisper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ali-Hussein-dev/openai-whisper/issues"
+  }
+}
