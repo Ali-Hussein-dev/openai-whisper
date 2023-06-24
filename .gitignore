@@ -36,3 +36,5 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+packages/react-whisper/dist/*
